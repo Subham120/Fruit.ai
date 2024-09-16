@@ -141,7 +141,7 @@ const Chat = () => {
             <img
               src={`/Orange.png`}
               alt=""
-              className="py-2 w-32 h-32 rounded-full"
+              className="py-2 md:w-32 md:h-32 rounded-full"
             />
             <div>
               <h2 className="text-lg font-extrabold text-[#EE0A22]">Orange</h2>
@@ -167,7 +167,7 @@ const Chat = () => {
             <img
               src={`/Cucumber.png`}
               alt=""
-              className="py-2 w-32 h-32 rounded-full"
+              className="py-2 md:w-32 md:h-32 rounded-full"
             />
             <div>
               <h2 className="text-lg font-extrabold text-[#EE0A22]">Cucumber</h2>
@@ -193,7 +193,7 @@ const Chat = () => {
             <img
               src={`/Tangerine.png`}
               alt=""
-              className="py-2 w-32 h-32 rounded-full"
+              className="py-2 w-20 h-20 md:w-32 md:h-32 rounded-full"
             />
             <div>
               <h2 className="text-lg font-extrabold text-[#EE0A22]">Tangerine</h2>

@@ -49,7 +49,7 @@ const Faq = () => {
       <div className="w-full px-10 py-8 h-[90%] overflow-y-scroll no-scrollbar">
         {response &&
           response.map((data, index) => (
-            <div key={index} className="w-full border flex h-[160px] justify-between  my-2 bg-[#EAEFEB] py-4 px-4 rounded-[25px]">
+            <div key={index} className="w-full border flex min-h-[160px] justify-between  my-2 bg-[#EAEFEB] py-4 px-4 rounded-[25px]">
               <div className="flex w-1/4 justify-center items-center flex-col">
                 <img src={data.image_url} alt="" className="border w-[105px] h-[90px] rounded-[25px] overflow-hidden bg-cover" />
                 <h1 className=" py-2 text-[#EE0A22] text-[14px] font-[700] font-poppins">{data.title}</h1>
